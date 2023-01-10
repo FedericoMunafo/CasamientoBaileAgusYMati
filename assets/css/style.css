@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: ccb3ff;
+  background-image: linear-gradient(to right, #ccb3ff, #eee6ff); }
+
+@font-face {
+  font-family: 'Gold Play Black';
+  src: url("../fuentes/GOLDPLAY-BLACK.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play Bold';
+  src: url("../fuentes/GOLDPLAY-BOLD.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play Light';
+  src: url("../fuentes/GOLDPLAY-LIGHT.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play Medium';
+  src: url("../fuentes/GOLDPLAY-MEDIUM.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play Regular';
+  src: url("../fuentes/GOLDPLAY-REGULAR.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play SemiBold';
+  src: url("../fuentes/GOLDPLAY-SEMIBOLD.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play Thin';
+  src: url("../fuentes/GOLDPLAY-THIN.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Spray Letters';
+  src: url("../fuentes/SPRAY-LETTERS.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+.btnColores {
+  background-color: white !important;
+  border: 20% white !important; }
+
+.tarjeta {
+  text-align: center;
+  background-color: #ccb3ff;
+  background-image: linear-gradient(to right, #ccb3ff, #eee6ff);
+  border: white solid 1px;
+  border-top-left-radius: 40px 40px;
+  border-top-right-radius: 40px 40px;
+  border-bottom-left-radius: 40px 40px;
+  border-bottom-right-radius: 40px 40px; }
+
+.tarjetaP {
+  color: white; }
+
+.contenedor {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: 50%; }
+
+.countdown {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  flex-wrap: wrap; }
+
+.countdown div {
+  display: grid;
+  place-items: center;
+  padding: 30px 10px; }
+
+.counter {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: 'Gold Play Thin';
+  margin-top: 50px; }
+
+.contadorP {
+  display: grid;
+  place-items: center;
+  border: solid 1px #ccb3ff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: #171792;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: white;
+  font-family: "Gold Play Black"; }
+
+span {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Spray Letters'; }
+
+.confirmacion {
+  font-size: large;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+  font-family: "Spray Letters";
+  color: white; }
+
+.confirmacionIco {
+  text-align: center;
+  justify-content: center; }
+
+.botonete {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  place-items: center !important; }
+
+.formConfirmacion {
+  display: grid;
+  place-items: center; }
+
+.fotosInsta {
+  background-image: url("../img/imagenewseb/1---instagram.jpg"); }
+
+.insta {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.textoInsta {
+  color: white;
+  text-align: center;
+  font-size: large;
+  text-transform: uppercase;
+  text-decoration: bold;
+  font-family: "Gold Play SemiBold"; }
+
+.hashtagInsta {
+  font-size: 5vh;
+  text-align: center;
+  color: white;
+  font-family: "Spray Letters"; }
+
+.btnInsta {
+  display: grid;
+  place-items: center !important;
+  text-align: center;
+  font-family: 'Gold Play Bold';
+  color: #ccb3ff;
+  border: #eee6ff;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.fotosMusica {
+  background-image: url("../img/imagenewseb/2---musica.jpg");
+  border: 0; }
+
+.regalo {
+  background-image: url("../img/imagenewseb/3---regalo.jpg");
+  border: 0; }
+
+.neruda {
+  color: white;
+  text-align: center;
+  font-size: large;
+  text-decoration: bold;
+  font-family: 'Spray Letters';
+  margin-top: 100px; }
+
+.Neruda {
+  font-family: 'Spray Letters';
+  color: white; }
+
+.textNeruda {
+  font-family: 'Spray Letters';
+  color: white;
+  text-align: center; }
+
+.imgNeruda {
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 200px; }
+
+.regaloTitle {
+  font-family: 'Spray Letters';
+  text-decoration: underline;
+  color: white; }
+
+.nuevosBotones {
+  place-items: center;
+  text-align: center;
+  color: white;
+  font-family: "Spray Letters"; }
+
+.btnSpotify {
+  margin-top: 50px;
+  margin-left: 100px; }
+
+.headerCasorio {
+  min-height: 70vh;
+  margin-top: 100px; }
+
+.regaloP {
+  font-family: "Gold Play Black";
+  color: white; }
+
+.AgusYMati {
+  font-size: 30vh;
+  color: white;
+  font-family: "Spray Letters"; }
+
+.carousel-item2 {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.nsCasmText {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: 'Gold Play Thin';
+  margin-top: 50px; }
+
+@media screen and (max-width: 514px) {
+  body {
+    height: initial;
+    background-size: cover; }
+  .headerCasorio {
+    border: 0;
+    min-width: auto;
+    background-repeat: round; }
+  .nsCasmText {
+    font-size: medium;
+    text-decoration: bolder; } }
