@@ -71,8 +71,8 @@ body {
 .countdown {
   display: flex;
   justify-content: space-evenly;
-  width: 50%;
-  flex-wrap: wrap; }
+  width: 502%;
+  flex-wrap: nowrap; }
 
 .countdown div {
   display: grid;
@@ -90,11 +90,11 @@ body {
   display: grid;
   place-items: center;
   border: solid 1px #ccb3ff;
-  height: 100px;
-  width: 100px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   color: #171792;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   background-color: white;
   font-family: "Gold Play Black"; }
