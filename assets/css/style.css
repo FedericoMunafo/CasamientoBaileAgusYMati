@@ -42,6 +42,7 @@ body {
   font-weight: normal; }
 
 .btnColores {
+  padding:10px;
   background-color: white !important;
   border: 20% white !important; }
 
@@ -170,7 +171,9 @@ span {
   color: #ccb3ff;
   border: #eee6ff;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold; 
+  padding: 0%;
+}
 
 .fotosMusica {
   background-image: url("../img/imagenewseb/2---musica.jpg");
