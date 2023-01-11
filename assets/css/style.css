@@ -247,6 +247,10 @@ span {
   margin-top: 50px; }
 
 @media screen and (max-width: 514px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; }
   body {
     height: initial;
     background-size: cover; }
