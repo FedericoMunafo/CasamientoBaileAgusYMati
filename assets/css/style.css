@@ -90,14 +90,17 @@ body {
   display: grid;
   place-items: center;
   border: solid 1px #ccb3ff;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   color: #171792;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   background-color: white;
-  font-family: "Gold Play Black"; }
+  font-family: "Gold Play Black"; 
+  margin-bottom: auto;
+}
+  
 
 span {
   display: block;
@@ -252,5 +255,6 @@ span {
     min-width: auto;
     background-repeat: round; }
   .nsCasmText {
-    font-size: medium;
+    margin-bottom: revert;
+    font-size: xx-large;
     text-decoration: bolder; } }
